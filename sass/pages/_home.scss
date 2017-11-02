@@ -1,0 +1,118 @@
+.wellcom-section {
+  overflow: hidden;
+  background: url(../img/img.png) left bottom no-repeat;
+  background-color: #eeeefb;
+  #wellcom-content {
+    float: right;
+    padding-right: 34px;
+    padding-bottom: 41px;
+    padding-top: 33px;
+    h1 {
+      padding-right: 76px;
+      font-size: 32px;
+      color: #093500;
+      line-height: 14.16px;
+      font-weight: 400;
+      style: regular;
+    }
+    p {
+      float: right;
+      width: 323px;
+      height: 67px;
+      font-size: 10px;
+      font-family: Tahoma;
+      style: regular;
+      font-weight: 400;
+      line-height: 14px;
+      color: #093500;
+      span {
+        font-size: 11px;
+        style: bold;
+        font-weight: 700;
+        color: #80a60f;
+
+      }
+    }
+  }
+}
+#about-section{
+  border-bottom: 2px solid #ecf0fb;
+  background: url(../img/arrow-.png) left bottom no-repeat;
+  #about-block{
+    margin-top: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #ecf0fb;
+    float: left;
+    @extend #wellcom-content;
+    h2{
+      font-size: 20px;
+      font-family: Myriad Pro;
+      style: Regular;
+      font-weight: 400;
+      line-height: 14.16px;
+      color: #093500;
+    }
+    p{
+      width: 205px;
+      height: 165px;
+      font-size: 10px;
+      font-family: Tahoma;
+      style: regular;
+      font-weight: 400;
+      line-height: 14px;
+      color: #093500;
+      span{
+        font-size: 11px;
+        style: bold;
+        font-weight: 700;
+        color: #80a60f;
+      }
+    }
+  }
+  .two-news-block{
+    float: left;
+    width: calc(675px - 205px - 47px);
+    padding-left: 25px;
+    #services-block{
+      padding-top: 7px;}
+    div {
+      border-bottom: 1px solid #ecf0fb;
+      display: inline-block;
+      .news-content {
+        display: inline-block;
+        padding-left: 21px;
+        h2 {
+          font-size: 20px;
+          font-family: Myriad Pro;
+          font-weight: 400;
+          line-height: 14.16px;
+          color: #093500;
+        }
+        p {
+          width: 210px;
+          font-size: 10px;
+          font-family: Tahoma;
+          style: Regular;
+          font-weight: 400;
+          line-height: 14px;
+          color: #093500;
+          span {
+            font-size: 11px;
+            style: bold;
+            font-weight: 700;
+            color: #80a60f;
+          }
+        }
+      }
+       }
+  }
+}
+footer{
+  #coppiriting{
+    font-size: 10px;
+    font-family: Tahoma;
+    font-weight: 400;
+    line-height: 20.29px;
+    color: #093500;
+  }
+}
