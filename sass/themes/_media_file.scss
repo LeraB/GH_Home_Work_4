@@ -3,19 +3,120 @@
     margin: 0 5%;
     .wraper {
       width: 100%;
-    }}
-   main{ #about-section #about-block{
-        width: 30%;
+    }
+  }
+  main {
+    #about-section {
+      #about-block {
+        width: 35%;
       }
-      .two-news-block{
-        width: 60%;
-        div {
-          }
+      .two-news-block {
+        width: 55%;
+        .news-content {
+          width: 50%;
         }
       }
     }
-@media (max-width: 700px) and (min-width: 500px) {
-  #about-section .two-news-block .news-content{
-  width: 100%;
+  }
 }
+
+@media (max-width: 700px) and (min-width: 600px) {
+  .wraper {
+    width: 100%;
+    nav {
+      margin: 0 5%;
+
+      ul {
+        width: 100%;
+        justify-content: flex-end;
+      }
+    }
+  }
+  #about-section {
+    #about-block {
+      width: 25%;
+      padding-left: 5%;
+      p {
+        width: 100%;
+      }
+    }
+    .two-news-block {
+      width: 55%;
+      div .news-content {
+        width: 40%;
+        p {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+  footer p {
+    margin-left: 6%;
+  }
+}
+
+@media (max-width: 600px) {
+  .wraper {
+    width: 100%;
+    nav {
+      margin: 0 5%;
+
+      ul {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        li{
+          display: inline-block;
+        }
+      }
+    }
+  }
+  main .wellcom-section #wellcom-content{
+    padding: 0;
+    margin: 25px 0;
+    h1{
+      text-align: center;
+      padding: 0;
+      line-height: 35px;
+    }
+    p{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  #about-section {
+    div{
+      margin-top: 5%;
+
+    #about-block {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      p {
+        width: 100%;
+      height: auto;
+      }}
+    }}
+
+  #about-section .two-news-block {
+    width: 100%;
+    padding: 0;
+    div{
+      text-align: center;
+      width: 100%;
+    img{
+      width: 50%;
+    }
+      .news-content {
+        width: 100%;
+        padding: 0 0 5%;
+        p {
+          text-align: center;
+          width: 70%;
+          margin: 0 auto;
+      }
+    }
+  }}
 }
