@@ -1,13 +1,18 @@
 .wellcom-section {
   overflow: hidden;
-  background: url(../img/img.png) left bottom no-repeat;
   background-color: #eeeefb;
   #wellcom-content {
     float: right;
     padding-right: 34px;
-    padding-bottom: 41px;
-    padding-top: 33px;
-    h1 {
+    padding-left: 34px;
+    img{
+      float: left;
+      margin-top: -10%;
+    }
+    div{
+      margin-top: -180px;
+      float: right;
+      h1 {
       padding-right: 76px;
       font-size: 32px;
       color: #093500;
@@ -32,7 +37,7 @@
         color: #80a60f;
 
       }
-    }
+    }}
   }
 }
 #about-section{
